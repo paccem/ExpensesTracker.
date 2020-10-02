@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/expensesTracker.css">
+</head>
+<body>
+    <div class="home">
+        <h1>Expenses Tracker</h1>
+        <hr>
+        <div class="budget">
+            <h3>Total Budget : <span id="totalBudget">0</span></h3>
+            <h3>Current Balance : <span id="currentBalance">0</span></h3>
+        </div>
+        <hr>
+        <div class="addBudget">
+            <h3>Add Money To Budget</h3>
+            <input type="text" id="userBudget">
+            <button onclick = "addBudget()">Add Money</button>
+        </div>
+        <hr>
+        <div class="addExpenses">
+            <input type="text" id="userExp" placeholder="Expenses name">
+            <br>
+            <br>
+            <input type="text" id="userAmt" placeholder="Expenses amount">
+            <br>
+            <br>
+            <button onclick="addExpense()">Add Expense</button>
+        </div>
+        <div class="expenses">
+            <h3 id="parent">Added Expenses</h3>
+        </div>
+    </div>
+   
+
+    <script src="./js/expenses.js"></script>
+</body>
+</html>

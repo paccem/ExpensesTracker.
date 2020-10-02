@@ -1,0 +1,22 @@
+.home{
+    text-align: center;
+    padding: 50px;
+}
+h1{
+    font: 40px bold tahoma;
+}
+h3{
+    font: 25px bold sans-serif;  
+}
+input{
+    padding: 5px;
+    width: 15%;
+}
+button{
+    padding: 5px;
+    width: 10%;
+}
+#parent>p{
+    text-transform: capitalize;
+    font: 18px tahoma;
+}
